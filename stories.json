@@ -1,0 +1,88 @@
+{
+  "stories": {
+    "addons-decorator--with-decorator": {
+      "id": "addons-decorator--with-decorator",
+      "kind": "addons|decorator",
+      "name": "with decorator",
+      "story": "with decorator",
+      "parameters": {
+        "argTypes": {},
+        "framework": "react",
+        "fileName": "631"
+      },
+      "args": {}
+    },
+    "root-group-component--variant-1": {
+      "id": "root-group-component--variant-1",
+      "kind": "root|group/component",
+      "name": "variant 1",
+      "story": "variant 1",
+      "parameters": {
+        "argTypes": {},
+        "framework": "react",
+        "fileName": "633"
+      },
+      "args": {}
+    },
+    "addons-parameter--with-parameter": {
+      "id": "addons-parameter--with-parameter",
+      "kind": "addons|parameter",
+      "name": "with parameter",
+      "story": "with parameter",
+      "parameters": {
+        "argTypes": {},
+        "framework": "react",
+        "fileName": "633"
+      },
+      "args": {}
+    },
+    "addons-useaddonstate--manager-default": {
+      "id": "addons-useaddonstate--manager-default",
+      "kind": "addons|useAddonState",
+      "name": "Manager Default",
+      "story": "Manager Default",
+      "parameters": {
+        "argTypes": {},
+        "framework": "react",
+        "fileName": 634
+      },
+      "args": {}
+    },
+    "addons-useaddonstate--preview-default": {
+      "id": "addons-useaddonstate--preview-default",
+      "kind": "addons|useAddonState",
+      "name": "Preview Default",
+      "story": "Preview Default",
+      "parameters": {
+        "argTypes": {},
+        "framework": "react",
+        "fileName": 634
+      },
+      "args": {}
+    },
+    "addons-useglobalargs--passed-to-story": {
+      "id": "addons-useglobalargs--passed-to-story",
+      "kind": "addons/useGlobalArgs",
+      "name": "Passed To Story",
+      "story": "Passed To Story",
+      "parameters": {
+        "argTypes": {},
+        "framework": "react",
+        "fileName": 637
+      },
+      "args": {}
+    },
+    "addons-useglobalargs--second-story": {
+      "id": "addons-useglobalargs--second-story",
+      "kind": "addons/useGlobalArgs",
+      "name": "Second Story",
+      "story": "Second Story",
+      "parameters": {
+        "argTypes": {},
+        "framework": "react",
+        "fileName": 637
+      },
+      "args": {}
+    }
+  }
+}
