@@ -22,7 +22,7 @@
     "publish:npm": "npm publish --access public",
     "screenshot": "npx storycap http://localhost:9001",
     "start": "start-storybook -p 9001 -c .storybook",
-    "test": "jest --coverage --config jest/config.json",
+    "test": "jest --coverage --config jest/config.json --passWithNoTests",
     "upgrade": "ncu -u"
   },
   "repository": {
