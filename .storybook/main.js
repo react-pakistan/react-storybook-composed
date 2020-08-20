@@ -11,11 +11,11 @@ module.exports = {
   refs: {
     reactCommon: {
       title: 'React Commons Collection',
-      url: 'https://dev--5f3e23ec5695fb00227498a1.chromatic.com',
+      url: 'https://taimoormk.github.io/react-commons-collection',
     },
     reactUI: {
       title: 'React UI Collection',
-      url: 'https://dev--5f3e4432c651170022115563.chromatic.com',
+      url: 'https://taimoormk.github.io/react-ui-collection',
     },
   },
 };
