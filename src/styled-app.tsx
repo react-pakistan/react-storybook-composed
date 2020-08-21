@@ -1,8 +1,8 @@
 // tslint:disable typedef
 
+import { theme, ITheme } from '@taimoormk/util-functions';
 import * as React from 'react';
 import * as styledComponents from 'styled-components';
-import { theme, ITheme } from '.';
 
 // https://www.styled-components.com/docs/api#define-a-theme-interface
 const {
