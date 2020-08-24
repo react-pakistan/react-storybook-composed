@@ -17,5 +17,13 @@ module.exports = {
       title: 'React UI Collection',
       url: 'https://taimoormk.github.io/react-ui-collection',
     },
+    reactIcon: {
+      title: 'React Icon Collection',
+      url: 'https://taimoormk.github.io/react-icon-collection',
+    },
+    reactLogo: {
+      title: 'React Logo Collection',
+      url: 'https://taimoormk.github.io/react-logo-collection',
+    },
   },
 };
