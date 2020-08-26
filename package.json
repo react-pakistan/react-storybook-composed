@@ -1,7 +1,7 @@
 {
   "name": "@react-pakistan/react-storybook-composed",
   "version": "1.0.0",
-  "description": "Boilerplate template for React Storybook with TS and more...",
+  "description": "A unified Storybook app for all of the React Pakistan Storybook projects.",
   "module": "lib/index.js",
   "main": "lib/index.js",
   "types": "index.d.tsx",
