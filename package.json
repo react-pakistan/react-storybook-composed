@@ -7,13 +7,13 @@
   "types": "index.d.tsx",
   "scripts": {
     "build": "yarn clean && yarn build:ts && cp package.json lib && cp README.md lib",
-    "build-storybook": "build-storybook -c .storybook -o .out",
+    "build:storybook": "build-storybook -c .storybook -o .out",
     "build:ts": "tsc --project tsconfig.build.json",
     "build:ts:cjs": "tsc --project tsconfig.build-cjs.json",
     "clean": "yarn rimraf ./lib",
-    "deploy-storybook": "storybook-to-ghpages",
+    "deploy:storybook": "storybook-to-ghpages",
     "lint": "yarn lint:ts && yarn lint:css",
-    "lint-staged": "lint-staged",
+    "lint:staged": "lint-staged",
     "lint:css": "stylelint './src/**/*.tsx'",
     "lint:ts": "eslint --config eslint.config.js",
     "publish:github": "cd ./lib && npm publish && cd ..",
@@ -30,7 +30,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint-staged",
+      "pre-commit": "yarn lint:staged",
       "pre-push": "yarn test && yarn build"
     }
   },
