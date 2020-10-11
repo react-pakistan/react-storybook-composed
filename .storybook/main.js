@@ -19,11 +19,15 @@ module.exports = {
     },
     reactIcon: {
       title: 'React Icon Collection',
-      url: 'https://taimoormk.github.io/react-icon-collection',
+      url: 'https://react-pakistan.github.io/react-icon-collection',
     },
     reactLogo: {
       title: 'React Logo Collection',
-      url: 'https://taimoormk.github.io/react-logo-collection',
+      url: 'https://react-pakistan.github.io/react-logo-collection',
+    },
+    reactEmoji: {
+      title: 'React Emoji Collection',
+      url: 'https://react-pakistan.github.io/react-emoji-collection',
     },
   },
 };
