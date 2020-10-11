@@ -1,6 +1,6 @@
 // tslint:disable typedef
 
-import { theme, ITheme } from '@taimoormk/util-functions';
+import { theme, ITheme } from '@react-pakistan/util-functions';
 import * as React from 'react';
 import * as styledComponents from 'styled-components';
 
