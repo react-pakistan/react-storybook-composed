@@ -1,5 +1,5 @@
-import { themes } from '@storybook/theming';
 import { parameters as parameter, globalTypes as globalType } from '@react-pakistan/util-functions';
+import { themes } from '@storybook/theming';
 
 export const parameters = {
   ...parameter,
