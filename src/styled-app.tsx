@@ -1,19 +1,6 @@
-// tslint:disable typedef
-
 import { theme, ITheme } from '@react-pakistan/util-functions';
 import * as React from 'react';
-import * as styledComponents from 'styled-components';
-
-// https://www.styled-components.com/docs/api#define-a-theme-interface
-const {
-  default: styled,
-  css,
-  createGlobalStyle,
-  keyframes,
-  ThemeProvider,
-} = styledComponents as styledComponents.ThemedStyledComponentsModule<ITheme>;
-
-export { styled, css, createGlobalStyle, keyframes, ThemeProvider };
+import styled, { ThemeProvider, ThemedStyledProps, } from 'styled-components';
 
 export const StyledApp = styled.div`
   display: inline-block;
@@ -34,4 +21,4 @@ export const StyledStory = ({ children } : { children : React.ReactNode }) => (
 // Due to our `typedef` rule, this type is needed as a helper.
 // Actually, by using helpers exported above, styled-components-props
 // can be calculated automatically by tsc already.
-export type WithTheme<P = {}> = styledComponents.ThemedStyledProps<P, ITheme>;
+export type WithTheme<P = {}> = ThemedStyledProps<P, ITheme>;
