@@ -1,6 +1,6 @@
 import { theme, ITheme } from '@react-pakistan/util-functions';
 import * as React from 'react';
-import styled, { ThemeProvider, ThemedStyledProps, } from 'styled-components';
+import styled, { ThemeProvider, ThemedStyledProps } from 'styled-components';
 
 export const StyledApp = styled.div`
   display: inline-block;
