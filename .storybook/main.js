@@ -11,11 +11,11 @@ module.exports = {
   refs: {
     reactCommon: {
       title: 'React Commons Collection',
-      url: 'https://taimoormk.github.io/react-commons-collection',
+      url: 'https://react-commons-collection.surge.sh',
     },
     reactUI: {
       title: 'React UI Collection',
-      url: 'https://taimoormk.github.io/react-ui-collection',
+      url: 'https://react-ui-collection.surge.sh',
     },
     reactIcon: {
       title: 'React Icon Collection',
