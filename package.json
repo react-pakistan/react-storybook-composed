@@ -14,7 +14,7 @@
     "deploy:storybook": "storybook-to-ghpages",
     "lint": "yarn lint:ts && yarn lint:css",
     "lint:staged": "lint-staged",
-    "lint:css": "stylelint './src/**/*.tsx'",
+    "lint:css": "stylelint './src/**/*.tsx' --allow-empty-input",
     "lint:ts": "eslint --config eslint.config.js",
     "publish:github": "cd ./lib && npm publish && cd ..",
     "publish:npm": "npm publish --access public",
